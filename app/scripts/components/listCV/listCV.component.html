@@ -1,0 +1,8 @@
+<div class="innerArchive" ng-repeat="cv in vm.list">
+  <p class="archiveName">{{cv.name}}</p>
+  <div class="btns">
+    <button class="btn btn-primary" ng-if="vm.access.view" ng-click="vm.viewCV(cv)">view</button>
+    <button class="btn btn-success" ng-if="vm.access.edit" ng-click="vm.editCV(cv.id)">edit</button>
+    <button class="btn btn-danger" ng-if="vm.access.delete" ng-click="vm.deleteCVById(cv.id, $index)">delete</button>
+  </div>
+</div>

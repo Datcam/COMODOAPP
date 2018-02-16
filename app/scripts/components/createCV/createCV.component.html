@@ -1,0 +1,87 @@
+<div class="cvBox">
+  <form ng-hide="hideBtns" class="cvForm">
+    <h3 class="cvTitle">General info</h3>
+    <div class="form-group">
+      <label for="name">Enter Name</label>
+      <input type="text" ng-model="cv.name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+      <label for="city">Enter city</label>
+      <input type="text" ng-model="cv.city" class="form-control" id="city" aria-describedby="cityHelp" placeholder="Enter city">
+    </div>
+    <div class="form-group">
+      <label for="phone">Enter phone</label>
+      <input type="text" ng-model="cv.phone" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Enter phone">
+    </div>
+    <div class="form-group">
+      <label for="email">Enter email</label>
+      <input type="text" ng-model="cv.email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="skype">Enter skype</label>
+      <input type="text" ng-model="cv.skype" class="form-control" id="skype" aria-describedby="skypeHelp" placeholder="Enter skype">
+    </div>
+    <div class="form-group">
+      <label for="social">Enter social</label>
+      <input type="text" ng-model="cv.social" class="form-control" id="social" aria-describedby="socialHelp" placeholder="Enter social">
+    </div>
+    <hr>
+    <h3 class="cvTitle">Summary</h3>
+    <div class="form-group">
+      <label for="summary">Enter summary</label>
+      <textarea type="text" ng-model="cv.summary" class="form-control" id="summary" aria-describedby="summaryHelp" placeholder="Enter summary"></textarea>
+    </div>
+    <hr>
+    <h3 class="cvTitle">Programming skills</h3>
+    <div class="form-group">
+      <label for="skills">Enter skills</label>
+      <textarea type="text" ng-model="cv.skills" class="form-control" id="skills" aria-describedby="skillsHelp" placeholder="Enter skills"></textarea>
+    </div>
+    <hr>
+    <h3 class="cvTitle">Languages</h3>
+    <div class="form-group">
+      <label for="languages">Enter languages</label>
+      <textarea type="text" ng-model="cv.lang" class="form-control" id="languages" aria-describedby="languagesHelp" placeholder="Enter languages"></textarea>
+    </div>
+    <hr>
+    <h3 class="cvTitle">Education</h3>
+    <div class="form-group">
+      <label for="education">Enter education</label>
+      <textarea type="text" ng-model="cv.education" class="form-control" id="education" aria-describedby="educationHelp" placeholder="Enter education"></textarea>
+    </div>
+    <hr>
+    <h3 class="cvTitle">Work experience</h3>
+    <div class="form-group">
+      <label for="company">Enter company</label>
+      <input type="text"
+                ng-model="cv.company"
+                class="form-control"
+                id="company"
+                aria-describedby="companyHelp"
+                placeholder="Enter company">
+
+      <label for="company">Enter project</label>
+      <input type="text"
+             ng-model="cv.project"
+             class="form-control"
+             id="project"
+             aria-describedby="projectHelp"
+             placeholder="Enter project">
+      <div class="form-group">
+        <label for="technologies">Enter technologies</label>
+        <textarea type="text"
+                  ng-model="cv.technologies"
+                  class="form-control"
+                  id="technologies"
+                  aria-describedby="technologiesHelp"
+                  placeholder="Enter technologies"
+        ></textarea>
+      </div>
+    </div>
+    <div ng-hide="hideBtns">
+      <button type="submit" class="btn btn-primary submitCV" ng-show="!mode" ng-click="addCV(cv)">Create</button>
+      <button type="submit" class="btn btn-primary submitCV" ng-show="mode" ng-click="editCV(cv)">Edit</button>
+    </div>
+  </form>
+  <preview cvdata="cv"></preview>
+</div>

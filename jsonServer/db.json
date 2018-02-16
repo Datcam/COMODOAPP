@@ -1,0 +1,72 @@
+{
+  "cvList": [
+    {
+      "name": "Dima KLEC",
+      "city": "Odessa",
+      "phone": "380933809195",
+      "email": "klecdeveloper@gmail.com",
+      "skype": "mix.mixa",
+      "social": "www.linkedin.com/justmaks",
+      "summary": "I am web developer",
+      "skills": "Vanilla JS",
+      "lang": "Russian",
+      "education": "Politech",
+      "company": "DOIT",
+      "project": "Kartunix",
+      "technologies": "AngularJS 1.4.x",
+      "id": 2
+    }
+  ],
+  "archiveCV": [
+    {
+      "name": "MAKSIM Rokachinskiy",
+      "city": "Los Angeles",
+      "phone": "2222222",
+      "email": "222222222@gmail.com",
+      "skype": "222.mixa",
+      "social": "www.linkedin.com/222",
+      "summary": "I am web developer",
+      "skills": "Vanilla JS",
+      "lang": "Russian",
+      "education": "Politech",
+      "company": "DOIT",
+      "project": "Kartunix",
+      "technologies": "AngularJS 1.4.x",
+      "id": 1
+    },
+    {
+      "name": "Katy KLEC",
+      "city": "Odessa",
+      "phone": "380933809195",
+      "email": "klecdeveloper@gmail.com",
+      "skype": "mix.mixa",
+      "social": "www.linkedin.com/justmaks",
+      "summary": "I am web developer",
+      "skills": "Vanilla JS",
+      "lang": "Russian",
+      "education": "Politech",
+      "company": "DOIT",
+      "project": "Kartunix",
+      "technologies": "AngularJS 1.4.x",
+      "id": 4
+    },
+    {
+      "name": "Tolik",
+      "city": "Los Angeles",
+      "phone": "2222222",
+      "email": "222222222@gmail.com",
+      "skype": "222.mixa",
+      "social": "www.linkedin.com/222",
+      "summary": "I am web developer",
+      "skills": "Vanilla JS",
+      "lang": "Russian",
+      "education": "Politech",
+      "company": "DOIT",
+      "project": "Kartunix",
+      "technologies": "AngularJS 1.4.x",
+      "id": 3
+    }
+  ],
+  "contact": [],
+  "aboutUs": []
+}

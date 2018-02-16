@@ -1,0 +1,320 @@
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.itemList {
+  background: transparent;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+  color: #30a5ff;
+  font-size: 22px;
+  font-family: 'Saab';
+  transition: background 0s ease-out;
+}
+
+.itemList:hover {
+  background: #e9ecf2;
+}
+
+.itemList a {
+  text-decoration: none;
+}
+
+.imageLogo {
+  background: url('../images/logo.png') no-repeat 10px;
+  background-position: 50%;
+  background-size: 9vw;
+  background-color: #f7f7f791;
+  margin-bottom: 10%;
+  height: 20vh;
+  box-shadow: -2px 0 3px 0px;
+}
+
+.createCV {
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translate(10%, -50%);
+}
+
+.navigationBar {
+  background: white;
+  height: 100vh;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, .05);
+  z-index: 1;
+}
+
+.menu {
+  position: relative;
+  background: #e8e6e6;
+  height: 10vh;
+  border-bottom: .1px solid #cacaca;
+}
+
+.content {
+  position: relative;
+  background: #f9f9f9;
+  height: 90vh;
+
+}
+
+.mainPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutUs p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  color: #544747;
+  font-weight: bold;
+}
+
+.contactPage p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  color: #544747;
+  font-weight: bold;
+}
+
+.archiveList {
+  width: 80vw;
+  height: 80vh;
+  overflow: auto;
+}
+
+.archiveText {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.archiveItems {
+  position: relative;
+}
+
+.archiveItems .innerArchive {
+  position: relative;
+  width: 70vw;
+  height: 10vh;
+  margin: 0 auto;
+  border-radius: 20px 1px 20px 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 3px 1px #337ab76e;
+}
+
+.btns {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.btns button {
+  margin-right: 10px;
+}
+
+.imageLogo {
+  cursor: pointer;
+}
+
+.archiveName {
+  display: inline-block;
+  color: #7b7b7b;
+  vertical-align: -20px;
+  letter-spacing: 1px;
+  padding: 2%;
+  font-size: 20px;
+  font-weight: initial;
+}
+
+.mainText {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  color: #544747;
+  font-weight: bold;
+  width: 52vw;
+}
+
+.welcomeText {
+  font-size: 3em;
+  text-align: center;
+}
+
+
+.cvForm {
+  width: 30vw;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.cvBox {
+  position: relative;
+  overflow: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 0 4px 10px -2px grey;
+  border-radius: 20px;
+  background-color: #80808003;
+}
+
+.preview {
+  position: fixed;
+  top: 17vh;
+  right: 4vw;
+  width: 45vw;
+  height: 80vh;
+  padding: 15px;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 6px 1px #00800061;
+  border-radius: 0px 45px 0px 45px;
+}
+
+.previewName {
+  position: absolute;
+  top: 2%;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.preview div {
+  color: black;
+}
+
+.modal-content {
+  height: 400px;
+}
+
+.successMessage {
+  margin: 80px;
+  text-align: center;
+  color: gray;
+  font-weight: inherit;
+  font-family: 'PS-Sans';
+  letter-spacing: 10px;
+}
+
+.buttonOk {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  width:150px;
+}
+
+.emptyList {
+  font-size: 40px;
+  text-align: center;
+  line-height: 60vh;
+  opacity: 0.2;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+.textStyle {
+  color: #00000075!important;
+}
+
+.contactInfoPreview {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.summaryPreview {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.skillsPreview {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.languagesPreview {
+  position: absolute;
+  top: 45%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.educationPreview {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.workExpPreview {
+  position: absolute;
+  top: 63%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.companyPreview {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.projectPreview {
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.technologiesPreview {
+  position: absolute;
+  top: 90%;
+  left: 8%;
+  font-weight: bold;
+}
+
+.submitCV {
+  margin-bottom: 8px;
+  margin-left: 40%;
+}
+
+.preview:after {
+  content: 'PREVIEW';
+  position: absolute;
+  top: 36%;
+  left: 16%;
+  transform: rotate(-40deg);
+  font-size: 100px;
+  opacity: 0.1;
+  color: #80808070;
+}
+
+.cvTitle {
+  font-size: 30px;
+  color: #686d68;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.backwardArrow {
+  position: absolute;
+  top: 7%;
+  left: 3%;
+}
